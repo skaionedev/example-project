@@ -1,0 +1,12 @@
+diff --git a/node_modules/@types/react-input-mask/index.d.ts b/node_modules/@types/react-input-mask/index.d.ts
+index 144c0a8..91d8ddc 100644
+--- a/node_modules/@types/react-input-mask/index.d.ts
++++ b/node_modules/@types/react-input-mask/index.d.ts
+@@ -43,6 +43,7 @@ export interface Props extends React.InputHTMLAttributes<HTMLInputElement> {
+    * Show mask even in empty input without focus.
+    */
+   alwaysShowMask?: boolean | undefined;
++  maskChar?: any;
+   /**
+    * Use inputRef instead of ref if you need input node to manage focus, selection, etc.
+    */
